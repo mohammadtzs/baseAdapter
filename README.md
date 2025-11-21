@@ -23,7 +23,7 @@ compile 'com.zhy:base-adapter:3.0.3'
 
 首先看我们最常用的单种Item的书写方式：
 
-```
+````
 mRecyclerView.setAdapter(new CommonAdapter<String>(this, R.layout.item_list, mDatas)
 {
     @Override
@@ -186,5 +186,6 @@ mListView.setAdapter(new CommonAdapter<String>(this, R.layout.item_list, mDatas)
 * [https://github.com/ragunathjawahar/simple-section-adapter](https://github.com/ragunathjawahar/simple-section-adapter)
 
     `SectionAdapter`对其进行了参考。
+
 
 
